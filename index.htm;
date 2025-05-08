@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment HTML + Vanilla CSS - {Roby Andreansyah}</title> <!-- tchange name with your own name -->
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+    <header>
+        <div id="title">
+            <h1>Learning Frontend Developer Tools</h1>
+            <p>Mastering Essential Tools for Efficient Frontend Development</p>
+        </div>
+    </header>
+
+    <main>
+        <section id="section-1">
+            <div id="html-section">
+                <div class="html-image">
+                    <img src="./assets/images/html-icon.png" alt="HTML Icon" width="70px" height="60px">
+                </div>
+
+                <div class="html-description">
+                    <h4>HTML</h4>
+                    <p>The backbone of web pages, structuring content for browsers</p>
+                    <button type="submit">Learn More</button>
+                </div>
+            </div>
+
+            <div id="css-section">
+                <div class="css-image">
+                    <img src="./assets/images/css-icon.png" alt="CSS Icon" width="100px" height="80px">
+                </div>
+
+                <div class="css-description">
+                    <h4>CSS</h4>
+                    <p>Styles and enhances the visual presentation of web elements</p>
+                    <button type="submit">Learn More</button>
+                </div>
+            </div>
+
+            <div id="js-section">
+                <div class="js-image">
+                    <img src="./assets/images/js-icon.png" alt="Javascript Icon" width="100px" height="90px">
+                </div>
+
+                <div class="js-description">
+                    <h4>Javascript</h4>
+                    <p>Adds interactivity and dynamic functionality to website</p>
+                    <button type="submit">Learn More</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="section-2">
+            <div id="tailwind-css-section">
+                <div class="tailwind-css-image">
+                    <img src="./assets/images/tailwind-css-icon.png" alt="Tailwind CSS Icon" width="60px" height="70px">
+                </div>
+
+                <div class="tailwind-css-description">
+                    <h4>Tailwind CSS</h4>
+                    <p>A utility-first CSS framework for fast and responsive UI design</p>
+                    <button type="submit">Learn More</button>
+                </div>
+            </div>
+
+            <div id="react-section">
+                <div class="react-image">
+                    <img src="./assets/images/react-icon.png" alt="React JS Icon" width="70px" height="60px">
+                </div>
+                
+                <div class="react-description">
+                    <h4>React JS</h4>
+                    <p>A Javascript library for building dynamic and scalable user interfaces</p>
+                    <button type="submit">Learn More</button>
+                </div>
+            </div>
+
+            <div id="figma-section">
+                <div class="figma-image">
+                    <img src="./assets/images/figma-icon.png" alt="Figma Icon" width="100px" height="100px">
+                </div>
+
+                <div class="figma-description">
+                    <h4>Figma</h4>
+                    <p>A collaborative design tool for creating UI/UX prototypes and wireframes</p>
+                    <button type="submit">Learn More</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+</html>
